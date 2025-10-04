@@ -1,0 +1,21 @@
+#Task 1 :Calculate Factorial Using a Function 
+n = int(input("Enter a number: "))
+def factorial(n):
+    if n<2:
+        return 1
+    else:
+        return n*factorial(n-1)
+result = factorial(n)
+print("The factorial of the number is :",result) 
+
+
+
+# Task 2Using the Math Module for Calculations
+import math
+num = int(input("Enter the number:"))
+square_root = math.sqrt(num)
+log_base = math.log(num)
+sine = math.sin(num)
+print("The square root of the number is :",square_root)
+print("The log to the base e of the number is :",log_base)
+print("The sie of the number is :",sine)
